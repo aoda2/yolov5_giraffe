@@ -1,4 +1,4 @@
-FROM ultralytics/yolov5:latest
+FROM ultralytics/yolov5:v6.1
 
 RUN pip uninstall -y pafy
 RUN pip install youtube_dl
